@@ -129,7 +129,7 @@ main {
     color: #181818;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-description {
@@ -138,20 +138,59 @@ main {
     text-align: center;
     color: #757575;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 /* This for (Module 5-5)*/
 /* 'about-info-container' note: we will put flex in parent  to inline child*/
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info-title{
+
+.about-info-title {
     font-size: 20px;
     color: #757575;
 }
-.info-description{
+
+.info-description {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
+
+/* what i do style section*/
+.what-i-do {
+    margin-top: 130px;
+}
+
+/* This for (Module 5-6)*/
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title {
+    width: 174px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skill-description {
+    width: 201px;
+    height: 196px;
+    color: #757575;
+}
+
+/* Resume Style */
