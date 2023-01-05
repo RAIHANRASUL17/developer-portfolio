@@ -1,0 +1,157 @@
+/* This for (Module 5-2)*/
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header and navigation styles */
+
+/* to set up font size */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+/* to set color for 'r' only */
+.text-primary-color {
+    color: #FD6E0A;
+}
+
+/*  We want to see 'Mary' and '-Portfolio -Blog -Hire me' inline, so we will use 'display:flex; */
+
+nav {
+    display: flex;
+}
+
+/*We want to reduce dot with 'nav li' and to use 'list-style*/
+nav li {
+    list-style: none;
+}
+
+/*We want to see 'nav ul Child' it means nav ul texts inline, so we can use 'nav li display*/
+nav ul {
+    display: flex;
+}
+
+/* There are 2 things in'nav' one is Marry and other is -Portfolio -Blog -Hire me. Right now we want to send them out in two side of part that's why you have to use 'justify-content:space-between*/
+nav {
+    justify-content: space-between;
+}
+
+/* For margin */
+/* for margin in nav */
+nav {
+    margin: 51px 226px;
+}
+
+/* margin for nav li */
+nav li {
+    margin-left: 68px;
+}
+
+
+
+/* This for (Module 5-3)*/
+/* for button */
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    padding: 18px -5px 36px 19px;
+}
+
+/* There are some texts in 'nav ul' these are Portfolio, Blog, Hire me. Right now we want to align */
+nav ul {
+    align-items: center;
+}
+
+/* banner styles */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 67px;
+    color: #181818;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 34px;
+}
+
+/* This for (Module 5-4)*/
+/* Look, there is a 'background color' and 'background image'overall 'header'. so we will put it out. */
+.header-Raihan {
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-image: url('../images/developer.png');
+    background-position: left;
+
+}
+
+/* for main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+    margin-top: 150px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 150px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    color: #181818;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+/* This for (Module 5-5)*/
+/* 'about-info-container' note: we will put flex in parent  to inline child*/
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
