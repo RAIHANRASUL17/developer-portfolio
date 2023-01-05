@@ -62,7 +62,7 @@ nav li {
     border-radius: 5px;
     background: #FD6E0A;
     border: 0;
-    padding: 18px -5px 36px 19px;
+    padding: 18px 20px;
 }
 
 /* There are some texts in 'nav ul' these are Portfolio, Blog, Hire me. Right now we want to align */
@@ -225,4 +225,29 @@ main {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* This is (Module 5-8)*/
+/* contact styles */
+.contacts{
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+.contacts .section-title{
+    text-align: left;
+
+}
+
+.contacts input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.input{
+    height: 64px;
+}
+.contacts a{
+    text-decoration: none;
 }
